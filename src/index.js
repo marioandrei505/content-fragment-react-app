@@ -5,7 +5,6 @@ import { BrowserRouter as Router, Route } from 'react-router-dom';
 import App from './components/App';
 import About from './components/About/About';
 import ContentFragment from './components/ContentFragment/ContentFragment';
-import ContentFragments from './components/ContentFragments/ContentFragments';
 
 ReactDOM.render(
   <Router>
@@ -13,13 +12,9 @@ ReactDOM.render(
       <Route exact path="/" component={App} />
       <Route path="/about" component={About} />
       <Route path="/contentfragment" component={ContentFragment} />
-      <Route path="/contentfragments" component={ContentFragments} />
     </div>
 
   </Router>,
 
   document.getElementById('root')
-
-
-
 );

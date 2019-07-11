@@ -5,7 +5,6 @@ import Header from './Header/Header'
 import Footer from './Footer/Footer'
 import About from './About/About'
 import ContentFragment from './ContentFragment/ContentFragment'
-import ContentFragments from './ContentFragments/ContentFragments'
 
 
 class App extends Component {
@@ -24,10 +23,6 @@ class App extends Component {
 
   showAbout(){
     this.setState({progress:"about"})
-  }
-
-  showContact(){
-    this.setState({progress:"contact"})
   }
 
   PickView(props){
