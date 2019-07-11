@@ -57,7 +57,7 @@ class ContentFragment extends Component {
                   </div>
 
                   <div className="content-fragment__img-container">
-                    <img src={"/../img" + item.image}/> 
+                    <img src={"/../img" + item.image} alt="Content Fragment"/> 
                   </div>
                 </li> 
             ))} 

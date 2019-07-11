@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
-import { BrowserRouter, Link, Router } from 'react-router-dom';
 import '../styles/App.css';
 import Header from './Header/Header'
 import Footer from './Footer/Footer'
 import About from './About/About'
 import ContentFragment from './ContentFragment/ContentFragment'
+
 
 
 class App extends Component {
@@ -28,11 +28,11 @@ class App extends Component {
   PickView(props){
     let progress = this.state.progress;
 
-    if (progress == 'content-fragment'){
+    if (progress === 'content-fragment'){
       return <ContentFragment/>
     }
 
-    if (progress == 'about'){
+    if (progress === 'about'){
       return <About/>
     }
   }
