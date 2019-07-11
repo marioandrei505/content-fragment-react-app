@@ -42,7 +42,7 @@ class ContentFragment extends Component {
       return (
         <div className="content-fragment">
           <ul>
-            {items.map(item => ( //loop each obj from api result 
+            {items.map(item => ( // loop each obj from api result 
                 <li key={item.modelTitle}>
                   <div className="content-fragment__text-container">
                     <p><span>Title:</span> {item.title}</p>
